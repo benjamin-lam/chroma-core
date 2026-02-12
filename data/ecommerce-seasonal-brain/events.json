@@ -1,0 +1,74 @@
+[
+  {
+    "id": "event_valentines",
+    "name": "Valentinstag",
+    "date": "2026-02-14",
+    "lead_times": {
+      "8_weeks_before": ["Sortiment planen", "Lieferanten anfragen"],
+      "6_weeks_before": ["Produktfotos erstellen", "Landingpage vorbereiten"],
+      "4_weeks_before": ["Newsletter vorbereiten", "Ads planen"],
+      "2_weeks_before": ["Lagerbestand prüfen", "Verpackungsmaterial bestellen"],
+      "1_week_before": ["Social Posts finalisieren"]
+    },
+    "checklists": {
+      "logistics": ["Verpackung", "Versandfristen", "Retourenprozess"],
+      "marketing": ["Landingpage", "Newsletter", "Ads", "Social Media"],
+      "operations": ["Lagerbestand", "Mitarbeiterplanung"]
+    }
+  },
+  {
+    "id": "event_easter",
+    "name": "Ostern",
+    "date": "2026-04-05",
+    "lead_times": {
+      "10_weeks_before": ["Sortiment planen", "Lieferanten anfragen"],
+      "8_weeks_before": ["Produktfotos erstellen"],
+      "6_weeks_before": ["Landingpage vorbereiten"],
+      "4_weeks_before": ["Newsletter vorbereiten", "Ads planen"],
+      "2_weeks_before": ["Lagerbestand prüfen", "Verpackungsmaterial bestellen"],
+      "1_week_before": ["Social Posts finalisieren"]
+    },
+    "checklists": {
+      "logistics": ["Verpackung", "Versandfristen", "Retourenprozess"],
+      "marketing": ["Landingpage", "Newsletter", "Ads", "Social Media"],
+      "operations": ["Lagerbestand", "Mitarbeiterplanung"]
+    }
+  },
+  {
+    "id": "event_black_friday",
+    "name": "Black Friday",
+    "date": "2026-11-27",
+    "lead_times": {
+      "12_weeks_before": ["Sortiment planen", "Lieferanten anfragen"],
+      "10_weeks_before": ["Produktfotos erstellen"],
+      "8_weeks_before": ["Landingpage vorbereiten"],
+      "6_weeks_before": ["Newsletter vorbereiten", "Ads planen"],
+      "4_weeks_before": ["Lagerbestand prüfen", "Verpackungsmaterial bestellen"],
+      "2_weeks_before": ["Social Posts finalisieren", "Serverkapazität prüfen"]
+    },
+    "checklists": {
+      "logistics": ["Verpackung", "Versandfristen", "Retourenprozess", "Peak-Handling"],
+      "marketing": ["Landingpage", "Newsletter", "Ads", "Social Media", "Bundles"],
+      "operations": ["Lagerbestand", "Mitarbeiterplanung", "Serverkapazität"]
+    }
+  },
+  {
+    "id": "event_christmas",
+    "name": "Weihnachten",
+    "date": "2026-12-24",
+    "lead_times": {
+      "16_weeks_before": ["Sortiment planen", "Lieferanten anfragen"],
+      "12_weeks_before": ["Produktfotos erstellen"],
+      "10_weeks_before": ["Landingpage vorbereiten"],
+      "8_weeks_before": ["Newsletter vorbereiten", "Ads planen"],
+      "6_weeks_before": ["Lagerbestand prüfen", "Verpackungsmaterial bestellen"],
+      "4_weeks_before": ["Social Posts finalisieren"],
+      "2_weeks_before": ["Last-Minute-Angebote vorbereiten"]
+    },
+    "checklists": {
+      "logistics": ["Verpackung", "Versandfristen", "Retourenprozess", "Peak-Handling"],
+      "marketing": ["Landingpage", "Newsletter", "Ads", "Social Media", "Bundles"],
+      "operations": ["Lagerbestand", "Mitarbeiterplanung", "Serverkapazität"]
+    }
+  }
+]
