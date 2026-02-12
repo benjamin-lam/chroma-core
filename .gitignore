@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+env/
+venv/
+testenv/
+
+# ChromaDB
+/chroma/
+
+# Data
+data/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
