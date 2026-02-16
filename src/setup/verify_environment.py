@@ -2,11 +2,14 @@ import sys
 import importlib.util
 import shutil
 
+
 def check_module(name):
     return importlib.util.find_spec(name) is not None
 
+
 def check_command(cmd):
     return shutil.which(cmd) is not None
+
 
 print("\n=== Environment Check ===\n")
 

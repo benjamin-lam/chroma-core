@@ -18,3 +18,18 @@ data/*
 .vscode/
 .idea/
 *.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Environment
+.env
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
