@@ -3,6 +3,7 @@ ChromaDB setup module.
 
 This module initializes and verifies the ChromaDB persistent client.
 """
+
 import logging
 from typing import List
 
@@ -17,7 +18,7 @@ from src.config import get_config
 config = get_config()
 logging.basicConfig(
     level=getattr(logging, config.get_log_level()),
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger(__name__)
 
@@ -25,10 +26,10 @@ logger = logging.getLogger(__name__)
 def setup_chroma_client() -> chromadb.PersistentClient:
     """
     Initialize and return a ChromaDB persistent client.
-    
+
     Returns:
         chromadb.PersistentClient: Initialized ChromaDB client
-        
+
     Raises:
         Exception: If client initialization fails
     """
@@ -38,7 +39,7 @@ def setup_chroma_client() -> chromadb.PersistentClient:
             path=config_instance.get_chroma_path(),
             settings=Settings(
                 anonymized_telemetry=config_instance.get_telemetry_setting()
-            )
+            ),
         )
         logger.info(
             f"ChromaDB client initialized at path: {config_instance.get_chroma_path()}"
@@ -52,13 +53,13 @@ def setup_chroma_client() -> chromadb.PersistentClient:
 def list_collections(client: chromadb.PersistentClient) -> List[Collection]:
     """
     List all collections in the ChromaDB client.
-    
+
     Args:
         client: ChromaDB client instance
-        
+
     Returns:
         List[Collection]: List of collection objects
-        
+
     Raises:
         Exception: If listing collections fails
     """
